@@ -1,0 +1,6 @@
+{
+  "notesFile": "CHANGELOG.md",
+  "contentPattern": "(^|/)src/.*\\.(ts|tsx|js|jsx)$",
+  "imageIdPattern": "ISSUE-[0-9]+",
+  "entryHeading": "## "
+}

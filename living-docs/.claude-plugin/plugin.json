@@ -1,0 +1,10 @@
+{
+  "name": "living-docs",
+  "description": "Self-maintaining project context. A SessionStart hook surfaces the latest changelog entry so every session opens with current state; a Stop hook deterministically auto-drafts a changelog inventory (changed files + extracted asset/image IDs) into your notes file. Config-driven via .claude/livingdocs.json — no LLM, no network.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Ramy Azzam",
+    "email": "ramy.a.azzam@gmail.com"
+  },
+  "keywords": ["hooks", "documentation", "changelog", "memory", "context", "notes"]
+}

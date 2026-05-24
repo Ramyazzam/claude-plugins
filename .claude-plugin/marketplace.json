@@ -1,0 +1,14 @@
+{
+  "name": "ramy-plugins",
+  "owner": {
+    "name": "Ramy Azzam",
+    "email": "ramy.a.azzam@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "living-docs",
+      "source": "./living-docs",
+      "description": "Self-maintaining project context. A SessionStart hook surfaces the latest changelog entry so every session opens with current state; a Stop hook deterministically auto-drafts a file/asset inventory into your notes file. Config-driven via .claude/livingdocs.json — no LLM, no network."
+    }
+  ]
+}
