@@ -18,6 +18,11 @@
             "type": "command",
             "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/notes-autolog.sh\"",
             "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/session-narrative.sh\"",
+            "timeout": 15
           }
         ]
       }

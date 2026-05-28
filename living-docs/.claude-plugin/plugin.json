@@ -1,10 +1,10 @@
 {
   "name": "living-docs",
-  "description": "Self-maintaining project context. A SessionStart hook surfaces the latest changelog entry so every session opens with current state; a Stop hook deterministically auto-drafts a changelog inventory (changed files + extracted asset/image IDs) into your notes file. Config-driven via .claude/livingdocs.json — no LLM, no network.",
-  "version": "0.2.0",
+  "description": "Self-maintaining, agent-agnostic project memory. SessionStart surfaces where you left off (today's session log → last session → index). Stop deterministically refreshes (a) an inventory of uncommitted files and (b) a dated session-narrative skeleton with git-derived facts. Optional `consolidate.sh` (opt-in, NOT auto-invoked) fills the LLM-NARRATIVE block from today's git context using your existing Claude Code CLI / Anthropic key / OpenAI-compatible endpoint. Writes into `.agent-memory/` (sessions/decisions/inventory) so the same memory is readable by Claude Code, Cursor, Copilot, Codex, Gemini CLI, and humans. Backward-compatible with v0.2.0 project-root notes files.",
+  "version": "0.3.0",
   "author": {
     "name": "Ramy Azzam",
     "email": "ramy.a.azzam@gmail.com"
   },
-  "keywords": ["hooks", "documentation", "changelog", "memory", "context", "notes"]
+  "keywords": ["hooks", "memory", "context", "agent-agnostic", "agents-md", "session-log", "notes"]
 }
